@@ -3,8 +3,8 @@
     <h1>{{ msg }}</h1>
     <h2>Your Blog Posts</h2>
     <div v-for="(post, i) in posts" :key="i">
-      <h3>{{ post.content.en.Title }}</h3>
-      <div v-html="post.content.en.Body"></div>
+      <h3>{{ post.content.en.title }}</h3>
+      <div v-html="post.content.en.body"></div>
     </div>
   </div>
 </template>
